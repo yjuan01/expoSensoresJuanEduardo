@@ -3,10 +3,12 @@ import { Item } from "@/components/item";
 import { FlatList, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-export default function TabTwoScreen() {
+
+export default function HomeScreen() {
   return (
     <>
       <Text style={s.title}> Sensores de Temperatura </Text>
+      
       
       <View>
               
@@ -25,6 +27,10 @@ export default function TabTwoScreen() {
 const s = StyleSheet.create({
   title: {
     fontSize: 32,
+    backgroundColor: '#222831',
+    color: '#fff',
+    paddingBottom: 10,
+    textAlign: 'center',
   },
   wrapList:{
         flex: 1
@@ -33,5 +39,6 @@ const s = StyleSheet.create({
         fontSize: 40,
         position: 'absolute',
         top: -250
-  }
+  },
+  
 });

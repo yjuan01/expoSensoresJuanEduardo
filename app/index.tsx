@@ -20,4 +20,4 @@ const s = StyleSheet.create({
 title: {
     color: '#090909'
   }
-})
+});

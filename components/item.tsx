@@ -16,7 +16,7 @@ const s = StyleSheet.create({
         display: 'flex',
         alignItems: 'center',
         gap: 20,
-        backgroundColor: '#5b565ed4',
+        backgroundColor: '#827788d4',
         margin: 10,
         height: 320,
         paddingHorizontal: 10,
@@ -53,9 +53,10 @@ const s = StyleSheet.create({
         textShadowRadius: 10, 
     },
     txt2: {
-        color: '#093753c3',
+        color: '#000000c3',
         fontSize: 15,
         fontWeight: 'bold',
-    }
+    },
+   
   
 })
